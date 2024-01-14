@@ -17,7 +17,7 @@ class StressState:
 
     @property
     def center(self):
-        return (self.stressTensor[0,0] + self.stressTensor[0,0]) / 2
+        return (self.stressTensor[0,0] + self.stressTensor[1,1]) / 2
 
 
     @property
